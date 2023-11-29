@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Main Page"
-title_separator          :
+title_separator          : "-"
 name                     : &name "Efstratios"
 description              : &description "personal description"
 url                      : https://etsoukan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Efstratios Tsoukanis"
   avatar           : "stratos.jpg"
-  bio              : "PhD student. Applied Harmonic Analysis"
+  bio              : "PhD student: Applied Harmonic Analysis"
   employer         : University of Maryland
-  googlescholar    :
-  email            :
+  googlescholar    : #"https://scholar.google.com/citations?user=lJYEMRAAAAAJ&hl=en&oi=ao"
+  email            : #"etsoukan@umd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
