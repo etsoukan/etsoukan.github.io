@@ -1,5 +1,5 @@
 ---
-permalink: 
+permalink: \S
 title: "I am Stratos, welcome to my webpage!"
 excerpt: #"About me"
 author_profile: true
