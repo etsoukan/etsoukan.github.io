@@ -11,39 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in Math, University of Crete, 2016
-
-* M.S. in Math, University of Crete, 2019
-* Supervisor: Professor Themistoklis Mitsis
-
-* Ph.D in Math, University of Maryland, 2024 (expected)
-* Supervisor: Professor Radu Balan
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
-* Teaching assistant at University of Maryland
-* Teaching assistant in Calculus II,III, Linear Algebra and Differential Equations
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
 
-* Teaching assistant at University of Crete
-* Teaching assistant in Calculus I and Analysis I
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
   
-
-Other activities
-======
-* Research Interaction Team in Applied Harmonic Analysis: Fall 2021, Fall 2023.
-* Research Interaction Team in Deep Learning: Fall 2022, Spring 2023, Fall 2023.
-* Refereed at Foundations of Computational Mathematics.
-* Refereed at Applied and Computational Harmonic Analysis.
-
 Skills
 ======
-* Programming skills
-  * Python
-  * Matlab
-  * Latex
-* Languages
-  * Greek
-  * English
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
 Publications
 ======
@@ -63,3 +54,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
