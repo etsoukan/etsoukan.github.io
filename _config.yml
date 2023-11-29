@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    :
+title                    : Main Page
 title_separator          :
 name                     : &name "Efstratios"
 description              : &description "personal description"
@@ -84,8 +84,8 @@ author:
   avatar           : "stratos.jpg"
   bio              : "PhD student. Applied Harmonic Analysis"
   employer         : University of Maryland
-  googlescholar    : "https://scholar.google.com/citations?user=lJYEMRAAAAAJ&hl=en&oi=ao"
-  email            : "etsoukan@umd.edu"
+  googlescholar    :
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
