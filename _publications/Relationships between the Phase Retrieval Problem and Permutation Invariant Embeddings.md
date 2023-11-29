@@ -1,4 +1,3 @@
 ---
-title: "Radu Balan, Efstratios Tsoukanis."
-paperurl: 'http://etsoukan.github.io/files/rel.pdf'
+Authors: "Radu Balan, Efstratios Tsoukanis."
 [Arxiv](http://etsoukan.github.io/files/rel.pdf)
