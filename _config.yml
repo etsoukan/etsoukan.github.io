@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Main Page
+title                    : "Main Page"
 title_separator          :
 name                     : &name "Efstratios"
 description              : &description "personal description"
