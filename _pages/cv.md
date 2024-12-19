@@ -16,11 +16,12 @@ Education
 * M.S. in Math, University of Crete, 2019
 * Supervisor: Professor Themistoklis Mitsis
 
-* Ph.D in Math, University of Maryland, 2024 (expected)
+* Ph.D in Math, University of Maryland, 2024
 * Supervisor: Professor Radu Balan
 
 Work experience
 ======
+* Research Assistant Professor at CGU Institute of Mathematical Sciences
 * Teaching assistant at University of Maryland
 * Teaching assistant in Calculus II,III, Linear Algebra and Differential Equations
 
