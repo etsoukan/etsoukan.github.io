@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at the University of Maryland, studying under the supervision of  [Radu Balan](https://www.math.umd.edu/~rvbalan/).
+I am a Research Assistant Professor at the CGU Institute of Mathematical Sciences, working under the supervision of Professor [Hrushikesh Mhaskar](https://www.cgu.edu/people/hrushikesh-mhaskar/).
 
-My research interests encompass Harmonic Analysis, Geometric Machine Learning, and Signal Processing.
-More specifically I work on Invariant machine learning and on Phase retrieval problem.
+My research interests encompass Harmonic Analysis, Geometric Machine Learning, Approximation theory and Signal Processing.
+More specifically I work on Invariant machine learning, on Phase retrieval problem and on kernel approximation methods.
 
