@@ -52,3 +52,4 @@ My research lies in Applied Harmonic Analysis and Geometric machine learning.
 * Balan R., Tsoukanis E. (2023). Relationships between the Phase Retrieval Problem and Permutation Invariant Embeddings Sampta Conference 2023 (arXiv:2306.13111) 
 * Balan R., Tsoukanis E. (2023). G-Invariant Representations using Coorbits: Bi-Lipschitz Properties (arXiv:2308.11784)
 * Balan R., Tsoukanis E. (2023). G-Invariant Representations using Coorbits: Injectivity properties (arXiv:2310.16365)
+* Balan R., Tsoukanis E,  Wellershoff M. (2024).Stability of sorting based embeddings (arXiv:2410.05446)
