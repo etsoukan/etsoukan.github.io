@@ -10,6 +10,6 @@ redirect_from:
 
 I am a Research Assistant Professor at the CGU Institute of Mathematical Sciences, working under the supervision of Professor [Hrushikesh Mhaskar](https://www.cgu.edu/people/hrushikesh-mhaskar/).
 
-My research interests encompass Harmonic Analysis, Geometric Machine Learning, Approximation theory and Signal Processing.
+My research interests encompass Harmonic Analysis, Geometric Deep Learning, Approximation theory and Signal Processing.
 More specifically I work on Invariant machine learning, on Phase retrieval problem and on kernel approximation methods.
 
