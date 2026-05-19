@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Main Page"
+title                    : "Efstratios Tsoukanis"
 title_separator          : "-"
-name                     : &name "Efstratios"
-description              : &description "personal description"
+name                     : &name "Efstratios Tsoukanis"
+description              : &description "Visiting Scholar at the Institute of Mathematical Sciences, Claremont Graduate University. Research in applied harmonic analysis, geometric machine learning, and signal processing."
 url                      : https://etsoukan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "etsoukan/etsoukan.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Efstratios Tsoukanis"
   avatar           : "stratos.jpg"
-  bio              : "Research Assistant Professor: Applied Harmonic Analysis"
-  employer         : CGU Institute of Mathematical Sciences
-  googlescholar    : #"https://scholar.google.com/citations?user=lJYEMRAAAAAJ&hl=en&oi=ao"
-  email            : #"etsoukan@umd.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  bio              : "Visiting Scholar, CGU Institute of Mathematical Sciences. Applied harmonic analysis &amp; geometric machine learning."
+  employer         : "CGU Institute of Mathematical Sciences"
+  googlescholar    : "https://scholar.google.com/citations?user=lJYEMRAAAAAJ&hl=en"
+  email            : "efstratios.tsoukanis@cgu.edu"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -99,8 +99,10 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
- 
+  linkedin         :  # e.g. "efstratios-tsoukanis"
+  github           : "etsoukan"
+  orcid            :  # e.g. "https://orcid.org/0000-0000-0000-0000"
+
 
 # Reading Files
 include:
