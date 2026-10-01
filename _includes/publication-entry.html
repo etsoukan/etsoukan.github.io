@@ -1,0 +1,16 @@
+{% include base_path %}
+
+{% assign authors = post.authors | replace: "Efstratios Tsoukanis", "<strong>Efstratios Tsoukanis</strong>" %}
+{% capture details_url %}{{ base_path }}{{ post.url }}{% endcapture %}
+
+<article class="publication" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <h2 class="publication__title" itemprop="headline">
+    <a href="{{ post.paperurl | default: details_url }}">{{ post.title }}</a>
+  </h2>
+  {% if authors %}<p class="publication__authors">{{ authors }}</p>{% endif %}
+  <p class="publication__venue">
+    <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+    <span class="publication__sep">·</span>
+    <a href="{{ details_url }}">Citation</a>
+  </p>
+</article>

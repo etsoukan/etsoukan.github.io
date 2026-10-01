@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/relationships-phase-retrieval-permutation-invariant
 date: 2023-07-10
 venue: "2023 International Conference on Sampling Theory and Applications (SampTA)"
+authors: "Radu Balan, Efstratios Tsoukanis"
 paperurl: "https://ieeexplore.ieee.org/document/10301202/"
 citation: "R. Balan and E. Tsoukanis, &quot;Relationships between the Phase Retrieval Problem and Permutation Invariant Embeddings,&quot; in <i>2023 International Conference on Sampling Theory and Applications (SampTA)</i>, Yale University, New Haven, CT, USA, 2023."
 ---

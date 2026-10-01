@@ -218,6 +218,10 @@
 
   li {
     white-space: nowrap;
+
+    @include breakpoint($large) {
+      white-space: normal;
+    }
   }
 
   a {
