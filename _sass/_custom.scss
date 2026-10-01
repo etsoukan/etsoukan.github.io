@@ -1,0 +1,75 @@
+/* ==========================================================================
+   SITE CUSTOMIZATIONS
+   Design changes on top of the AcademicPages / Minimal Mistakes theme.
+   ========================================================================== */
+
+$accent: $link-color;
+
+/* Top menu: name stands out, darker links, accent underline on hover */
+.greedy-nav {
+  a {
+    color: $dark-gray;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  .visible-links a:before {
+    background: $accent;
+  }
+
+  button {
+    background-color: $accent;
+  }
+}
+
+.masthead__menu-item--lg a {
+  color: #111;
+  font-size: $type-size-4;
+}
+
+/* Sidebar in the same typeface as the page */
+.sidebar {
+  p,
+  li {
+    font-family: $charter;
+  }
+}
+
+.sidebar .author__name {
+  font-family: $charter;
+  font-size: $type-size-5;
+  color: #111;
+}
+
+.author__urls-wrapper {
+  font-family: $charter;
+}
+
+/* Footer: readable instead of pale gray */
+.page__footer {
+  color: $dark-gray;
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $dark-gray;
+  }
+}
+
+/* Same text width on list pages (Publications, Talks, CV) as on the home page */
+.archive {
+  @include breakpoint($large) {
+    @include suffix(2 of 12);
+  }
+}
+
+/* Home page: research areas under the name */
+.page__tagline {
+  margin-top: -0.4em;
+  color: $accent;
+  font-size: $type-size-4;
+  font-style: italic;
+}
