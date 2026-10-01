@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)]({{ base_path }}/files/Resume.pdf)
+
 Positions
 ======
 * **CGU Institute of Mathematical Sciences**, Claremont, CA

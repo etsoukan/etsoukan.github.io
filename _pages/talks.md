@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+* **2025** · [Active Learning Classification from a Signal Separation Perspective]({{ base_path }}/publication/active-learning-signal-separation)  
+  International Conference on Sampling Theory and Applications (SampTA 2025), Vienna, Austria
+
 * **2023** · [Relationships between the Phase Retrieval Problem and Permutation Invariant Embeddings]({{ base_path }}/publication/relationships-phase-retrieval-permutation-invariant)  
   International Conference on Sampling Theory and Applications (SampTA 2023), Yale University, New Haven, CT
 

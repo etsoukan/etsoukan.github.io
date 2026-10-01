@@ -1,0 +1,139 @@
+% CV of Efstratios Tsoukanis -- compile with: pdflatex Resume.tex
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{microtype}
+\usepackage[margin=0.85in,top=0.7in,bottom=0.75in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{accent}{HTML}{2A7896}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section headings: small caps in the accent color with a thin rule underneath
+\titleformat{\section}{\large\scshape\color{accent}}{}{0pt}{}[\vspace{-0.6ex}{\color{accent!60}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{2.2ex}{1.2ex}
+
+\setlist{nosep,leftmargin=1.2em,topsep=0.3ex}
+\setlist[enumerate]{label=\arabic*.,leftmargin=1.8em,itemsep=0.6ex}
+
+% \entry{bold left}{right-aligned date}{second line}
+\newcommand{\entry}[3]{%
+  \textbf{#1}\hfill{\small #2}\par
+  \ifx&#3&\else #3\par\fi
+  \vspace{0.8ex}}
+\newcommand{\me}{\textbf{E.~Tsoukanis}}
+\newcommand{\pubsub}[1]{\vspace{0.4ex}\textit{#1}\par\vspace{0.2ex}}
+
+\begin{document}
+
+{\centering
+  {\fontsize{24}{28}\selectfont Efstratios Tsoukanis}\par\vspace{1.2ex}
+  Visiting Scholar, Institute of Mathematical Sciences, Claremont Graduate University\par
+  150 E.\ 10th Street, Claremont, CA 91711\par\vspace{0.4ex}
+  \href{mailto:efstratios.tsoukanis@cgu.edu}{efstratios.tsoukanis@cgu.edu}
+  \enspace$\cdot$\enspace +1 (240) 623-7742
+  \enspace$\cdot$\enspace \href{https://etsoukan.github.io}{etsoukan.github.io}
+  \enspace$\cdot$\enspace \href{https://scholar.google.com/citations?user=lJYEMRAAAAAJ&hl=en}{Google Scholar}\par
+}
+
+\section{Positions}
+\entry{Visiting Scholar}{Current}{Institute of Mathematical Sciences, Claremont Graduate University, Claremont, CA}
+\begin{itemize}
+  \item Research with Distinguished Research Professor Hrushikesh Mhaskar on computational harmonic analysis and machine learning, supported by the US Office of Naval Research.
+\end{itemize}
+\vspace{0.8ex}
+\entry{Research Assistant Professor}{2024--2025}{Institute of Mathematical Sciences, Claremont Graduate University, Claremont, CA}
+
+\section{Education}
+\entry{Ph.D.\ in Mathematics}{2024}{University of Maryland, College Park}
+\begin{itemize}
+  \item Dissertation: \textit{G-Invariant Representations using Coorbits}
+  \item Advisor: Professor Radu Balan
+\end{itemize}
+\vspace{0.8ex}
+\entry{M.S.\ in Mathematics}{2019}{University of Crete, Heraklion}
+\begin{itemize}
+  \item Thesis: \textit{Fourier multiplier and Fefferman counter-example}
+  \item Advisor: Professor Themistoklis Mitsis
+\end{itemize}
+\vspace{0.8ex}
+\entry{B.S.\ in Mathematics}{2016}{University of Crete, Heraklion}
+\begin{itemize}
+  \item Erasmus exchange at the University of Barcelona, 2014
+\end{itemize}
+
+\section{Research Interests}
+Applied harmonic analysis and geometric machine learning: group-invariant representations
+(embeddings of orbit spaces, injectivity and bi-Lipschitz properties), phase retrieval,
+kernel methods and approximation theory.
+
+\section{Publications}
+\pubsub{Journal articles}
+\begin{enumerate}
+  \item R.~Balan and \me.
+    G-invariant representations using coorbits: Bi-Lipschitz properties.
+    \textit{Advances in Computational Mathematics}, to appear, 2026.
+    \href{https://arxiv.org/abs/2308.11784}{arXiv:2308.11784}
+  \item N.~Dym, M.~Wellershoff, \me, D.~Levy, and R.~Balan.
+    Quantitative bounds for sorting-based permutation-invariant embeddings.
+    \textit{IEEE Transactions on Information Theory}, to appear, 2026.
+    \href{https://arxiv.org/abs/2510.22186}{arXiv:2510.22186}
+  \item H.~N.~Mhaskar, \me, and A.~D.~Jagtap.
+    An approximation theory perspective on machine learning.
+    \textit{Neural Networks}, 2026.
+    \href{https://www.sciencedirect.com/science/article/pii/S0893608026003035}{ScienceDirect}
+\end{enumerate}
+\pubsub{Conference proceedings}
+\begin{enumerate}[resume]
+  \item H.~N.~Mhaskar, R.~O'Dowd, and \me.
+    Active learning classification from a signal separation perspective.
+    \textit{International Conference on Sampling Theory and Applications (SampTA)}, Vienna, Austria, 2025.
+    \href{https://arxiv.org/abs/2502.16425}{arXiv:2502.16425}
+  \item R.~Balan and \me.
+    Relationships between the phase retrieval problem and permutation invariant embeddings.
+    \textit{International Conference on Sampling Theory and Applications (SampTA)}, New Haven, CT, 2023.
+    \href{https://arxiv.org/abs/2306.13111}{arXiv:2306.13111}
+\end{enumerate}
+\pubsub{Preprints}
+\begin{enumerate}[resume]
+  \item R.~Balan, \me, and M.~Wellershoff.
+    Stability of sorting based embeddings.
+    \href{https://arxiv.org/abs/2410.05446}{arXiv:2410.05446}, 2024.
+  \item R.~Balan and \me.
+    G-invariant representations using coorbits: Injectivity properties.
+    \href{https://arxiv.org/abs/2310.16365}{arXiv:2310.16365}, 2023.
+\end{enumerate}
+
+\section{Talks}
+\begin{itemize}[leftmargin=3.4em,labelwidth=2.8em,labelsep=0.6em,align=left,itemsep=0.6ex]
+  \item[2025] \textit{Active learning classification from a signal separation perspective.}
+    SampTA 2025, Vienna, Austria.
+  \item[2023] \textit{Relationships between the phase retrieval problem and permutation invariant embeddings.}
+    SampTA 2023, Yale University, New Haven, CT.
+  \item[2023] \textit{Stability properties of coorbit embeddings.} CodEx Seminar.
+  \item[2022] \textit{Noise stability of functions with low influences.}
+    Computational Learning Theory and Fourier Analysis Summer School.
+\end{itemize}
+
+\section{Teaching}
+\entry{Teaching Assistant, University of Maryland}{2018--2023}{Calculus II and III, Linear Algebra, Differential Equations}
+\entry{Teaching Assistant, University of Crete}{2015--2016}{Calculus I, Analysis I}
+
+\section{Service and Other Activities}
+\begin{itemize}[itemsep=0.3ex]
+  \item Referee for \textit{Foundations of Computational Mathematics} and \textit{Applied and Computational Harmonic Analysis}
+  \item Research Interaction Team in Applied Harmonic Analysis: Fall 2021, Fall 2023
+  \item Research Interaction Team in Deep Learning: Fall 2022, Spring 2023, Fall 2023
+\end{itemize}
+
+\section{Skills}
+\textbf{Programming:} Python, MATLAB, \LaTeX \qquad \textbf{Languages:} Greek, English
+
+\end{document}
