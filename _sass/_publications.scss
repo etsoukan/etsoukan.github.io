@@ -1,0 +1,42 @@
+/* ==========================================================================
+   PUBLICATION LIST
+   ========================================================================== */
+
+.publication {
+  margin-bottom: 1.75em;
+
+  p {
+    margin: 0.2em 0 0;
+  }
+}
+
+.publication__title {
+  margin: 0;
+  font-size: $type-size-4;
+  line-height: 1.35;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.publication__authors {
+  font-size: $type-size-5;
+}
+
+.publication__venue {
+  color: $gray;
+  font-size: $type-size-5;
+}
+
+.publication__sep {
+  margin: 0 0.35em;
+}
+
+.publication__intro {
+  color: $gray;
+}

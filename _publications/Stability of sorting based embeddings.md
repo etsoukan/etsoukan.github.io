@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/stability-of-sorting-based-embeddings
 date: 2024-10-07
 venue: "arXiv preprint"
+authors: "Radu Balan, Efstratios Tsoukanis, Matthias Wellershoff"
 paperurl: "https://arxiv.org/abs/2410.05446"
 citation: "R. Balan, E. Tsoukanis, and M. Wellershoff, &quot;Stability of sorting based embeddings,&quot; arXiv:2410.05446, 2024."
 ---

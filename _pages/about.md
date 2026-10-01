@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: "Welcome"
+title: "Efstratios Tsoukanis"
 excerpt: "Visiting Scholar at the CGU Institute of Mathematical Sciences. Applied harmonic analysis and geometric machine learning."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+
+<p class="page__tagline">Applied harmonic analysis · Geometric machine learning</p>
 
 I am Stratos, a **Visiting Scholar** at the [CGU Institute of Mathematical Sciences](https://www.cgu.edu/school/ims/), where I collaborate with Distinguished Research Professor [Hrushikesh Mhaskar](https://www.cgu.edu/people/hrushikesh-mhaskar/) on computational harmonic analysis and machine learning, supported by the US Office of Naval Research.
 
